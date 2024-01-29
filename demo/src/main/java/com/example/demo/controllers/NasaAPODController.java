@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 public class NasaAPODController {
 
     private static final String NASA_APOD_BASE_URL = "https://api.nasa.gov/planetary/apod";
-    private static final String API_KEY = "YOUR_API_KEY"; // Replace with your NASA API key
+    private static final String API_KEY = "J5CzXOafLHpF9vfhFIgtbZBmdVi1GckiX8n7nGqu";
 
     @GetMapping("/picture")
     public String getNasaAPODPicture(
